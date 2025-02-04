@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>L'Éclat Praliné - Pâtisserie Artisanale</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
@@ -51,7 +52,7 @@
 <body class="bg-gray-50">
     <nav class="fixed top-0 w-full bg-white shadow-md z-50 px-8 py-4">
     <div class="flex justify-between items-center">
-        <h1 class="text-4xl font-bold text-pink-600">L'Éclat Praliné</h1>
+        <h1 class="text-4xl font-bold text-[#c32752] ml-8">L'Éclat Praliné</h1>
         <input type="checkbox" id="nav-toggle" class="hidden peer">
         <label for="nav-toggle" class="md:hidden cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -59,10 +60,10 @@
             </svg>
         </label>
         <div class="hidden md:flex space-x-6">
-            <a href="#accueil" class="hover:text-pink-600 transition">Accueil</a>
-            <a href="#about" class="hover:text-pink-600 transition">À Propos</a>
-            <a href="#creations" class="hover:text-pink-600 transition">Créations</a>
-            <a href="#contact" class="hover:text-pink-600 transition">Contact</a>
+            <a href="#accueil" class="hover:text-[#c32752] transition">Accueil</a>
+            <a href="#about" class="hover:text-[#c32752] transition">À Propos</a>
+            <a href="#creations" class="hover:text-[#c32752] transition">Créations</a>
+            <a href="#contact" class="hover:text-[#c32752] transition">Contact</a>
         </div>
     </div>
     <div class="mobile-menu hidden peer-checked:block md:hidden absolute top-full left-0 right-0 bg-white shadow-md transition-all duration-300">
@@ -88,16 +89,16 @@
     <section id="accueil" class="hero-bg min-h-screen flex items-center justify-center pt-20 md:pt-16 sm:pt-12">
     <div class="container mx-auto px-4 md:px-6 sm:px-4">
         <div class="flex flex-col lg:flex-row items-center">
-            <div class="w-full lg:w-1/2 lg:pr-12 text-center lg:text-left mb-8 lg:mb-0">
-                <h1 class="text-4xl md:text-5xl font-bold text-pink-800 mb-6">L'Éclat Praliné</h1>
+            <div class="w-full lg:w-1/2 lg:pr-12 flex flex-col text-center mb-8 lg:mb-0">
+                <img src="https://codyzfile.s3.eu-west-3.amazonaws.com/m6aUmImLsM/images/19e72c5b71ea7c52.PNG" alt="L'Éclat Praliné" class="h-[180px] rounded-lg mx-auto mb-8">
                 <p class="text-lg md:text-xl text-gray-700 mb-8 px-4 lg:px-0">
                     Une histoire de passion, de tradition et d'amour pour la pâtisserie française. Chaque création raconte une histoire, chaque gâteau est un hommage.
                 </p>
-                <div class="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-                    <a href="#creations" class="bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-700 transition text-center">
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#creations" class="bg-[#c32752] text-white px-6 py-3 rounded-full  transition text-center">
                         Découvrir mes Créations
                     </a>
-                    <a href="#contact" class="border-2 border-pink-600 text-pink-600 px-6 py-3 rounded-full hover:bg-pink-100 transition text-center">
+                    <a href="#contact" class="border-2 border-[#c32752] text-[#c32752] px-6 py-3 rounded-full transition text-center">
                         Me Contacter
                     </a>
                 </div>
@@ -127,18 +128,18 @@
                     </p>
                     <div class="grid grid-cols-2 gap-4 md:gap-6">
                         <div class="bg-pink-100 p-4 md:p-6 rounded-xl text-center transform hover:-translate-y-1 transition-transform duration-300">
-                            <h3 class="text-xl md:text-2xl lg:text-3xl font-bold text-pink-700 mb-2">100%</h3>
-                            <p class="text-sm md:text-base text-pink-600">Artisanal</p>
+                            <h3 class="text-xl md:text-2xl lg:text-3xl font-bold text-[#c32752] mb-2">100%</h3>
+                            <p class="text-sm md:text-base text-[#c32752]">Artisanal</p>
                         </div>
                         <div class="bg-pink-100 p-4 md:p-6 rounded-xl text-center transform hover:-translate-y-1 transition-transform duration-300">
-                            <h3 class="text-xl md:text-2xl lg:text-3xl font-bold text-pink-700 mb-2">Bordeaux</h3>
-                            <p class="text-sm md:text-base text-pink-600">Origine</p>
+                            <h3 class="text-xl md:text-2xl lg:text-3xl font-bold text-[#c32752] mb-2">Bordeaux</h3>
+                            <p class="text-sm md:text-base text-[#c32752]">Origine</p>
                         </div>
                     </div>
                     <div class="mt-8 flex flex-wrap gap-3 md:gap-4 justify-center">
-                        <span class="px-3 md:px-4 py-2 bg-pink-200 text-pink-700 rounded-full text-sm">Pâtisserie créative</span>
-                        <span class="px-3 md:px-4 py-2 bg-pink-200 text-pink-700 rounded-full text-sm">Fait maison</span>
-                        <span class="px-3 md:px-4 py-2 bg-pink-200 text-pink-700 rounded-full text-sm">Produits locaux</span>
+                        <span class="px-3 md:px-4 py-2 bg-pink-200 text-[#c32752] rounded-full text-sm">Pâtisserie créative</span>
+                        <span class="px-3 md:px-4 py-2 bg-pink-200 text-[#c32752] rounded-full text-sm">Fait maison</span>
+                        <span class="px-3 md:px-4 py-2 bg-pink-200 text-[#c32752] rounded-full text-sm">Produits locaux</span>
                     </div>
                 </div>
             </div>
@@ -146,7 +147,7 @@
                 <div class="relative">
                     <img src="https://images.unsplash.com/photo-1519733949-b7dfe6268abe?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MjU1MDF8MHwxfHNlYXJjaHw3fHxwYXN0cnklMjBjaGVmfGVufDB8MHx8fDE3Mzc4MTYyNDR8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080" alt="Atelier de Pâtisserie" class="rounded-2xl shadow-2xl max-h-96 w-full object-cover">
                     <div class="absolute -bottom-4 -right-4 bg-white p-4 rounded-xl shadow-lg">
-                        <p class="text-pink-600 font-semibold">✨ Passion &amp; Créativité</p>
+                        <p class="text-[#c32752] font-semibold">✨ Passion &amp; Créativité</p>
                     </div>
                 </div>
             </div>
@@ -372,7 +373,7 @@
             <input type="text" id="name" placeholder="Nom" class="w-1/2 p-3 rounded-lg border border-pink-300" required="">
         </div>
         <textarea id="message" placeholder="Votre message" class="w-full p-3 rounded-lg border border-pink-300 h-40" required=""></textarea>
-        <button type="submit" class="w-full bg-pink-600 text-white py-4 rounded-lg hover:bg-pink-700 transition">
+        <button type="submit" class="w-full bg-[#c32752] text-white py-4 rounded-lg transition">
             Envoyer le Message
         </button>
     </form>
@@ -389,7 +390,7 @@
     </div>
 </section>
 
-    <footer class="bg-pink-800 text-white py-8" modif-id="selected-element">
+    <footer class="bg-[#c32752] text-white py-8" modif-id="selected-element">
     <div class="container mx-auto px-8 text-center">
         <div class="flex justify-center space-x-6 mb-6">
             <a href="https://www.instagram.com/alex_patissiere?igsh=MXA3cXNyNXAya25xZA%3D%3D&amp;utm_source=qr" target="_blank" class="text-2xl"><i class="fab fa-instagram"></i></a>
