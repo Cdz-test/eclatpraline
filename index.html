@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>L'Éclat Praliné - Pâtisserie Artisanale</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
@@ -254,7 +254,19 @@
             'alt': 'Number cake fruits rouges',
             'name': 'Number cake fruits rouges',
             'price': 'À partir de 40€'
-        }
+        },
+        {
+            'photo': 'https://codyzfile.s3.eu-west-3.amazonaws.com/m6aUmImLsM/images/8e37224bb079015d.jpeg',
+            'alt': 'Flan',
+            'name': 'Flan',
+            'price': 'À partir de 25€'
+        },
+        {
+            'photo': 'https://codyzfile.s3.eu-west-3.amazonaws.com/m6aUmImLsM/images/bd09427d53363562.jpeg',
+            'alt': 'Brioche',
+            'name': 'Brioche',
+            'price': 'À partir de 20€'
+        },
     ],
     imageGalleryOpen(event) {
         this.imageGalleryImageIndex = event.target.dataset.index;
@@ -362,7 +374,44 @@
             </div>
         </div>
     </div>
-</section><section id="contact" class="bg-white py-20 hero-bg">
+</section><section class="hero-bg py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex justify-center mb-12">
+            <h2 class="text-4xl font-bold section-title text-center inline-block">Témoignages de nos clients</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-pink-50 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <p class="text-gray-700 italic mb-4">"Les pâtisseries de L'Éclat Praliné sont tout simplement divines ! Le Layer Cake est une véritable explosion de saveurs en bouche. Un vrai moment de bonheur !"</p>
+                <p class="text-[#c32752] font-semibold">Sophie M.</p>
+            </div>
+            
+            <div class="bg-pink-50 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <p class="text-gray-700 italic mb-4">"Chaque création est un véritable chef-d'œuvre. La finesse des détails et l'équilibre des saveurs sont remarquables. Je recommande particulièrement les entremets !"</p>
+                <p class="text-[#c32752] font-semibold">Thomas L.</p>
+            </div>
+
+            <div class="bg-pink-50 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <p class="text-gray-700 italic mb-4">"J'ai commandé un gâteau pour l'anniversaire de ma fille, c'était magnifique et délicieux ! Le service est impeccable et les créations sont uniques."</p>
+                <p class="text-[#c32752] font-semibold">Marie P.</p>
+            </div>
+
+            <div class="bg-pink-50 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <p class="text-gray-700 italic mb-4">"Une adresse incontournable pour les amateurs de pâtisserie fine. Les macarons sont les meilleurs que j'ai jamais goûtés !"</p>
+                <p class="text-[#c32752] font-semibold">Alexandre B.</p>
+            </div>
+
+            <div class="bg-pink-50 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <p class="text-gray-700 italic mb-4">"La qualité des produits est exceptionnelle. On sent la passion et le savoir-faire dans chaque création. Un grand bravo pour ce travail d'excellence !"</p>
+                <p class="text-[#c32752] font-semibold">Claire D.</p>
+            </div>
+
+            <div class="bg-pink-50 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <p class="text-gray-700 italic mb-4">"Des pâtisseries d'exception qui ravissent les papilles. Le rapport qualité-prix est excellent. Je suis une cliente fidèle et comblée !"</p>
+                <p class="text-[#c32752] font-semibold">Manon L.</p>
+            </div>
+        </div>
+    </div>
+</section><section id="contact" class="bg-white py-20">
     <div class="container mx-auto px-8">
         <div class="flex justify-center mb-12">
             <h2 class="text-4xl font-bold section-title text-center inline-block">Contactez-moi</h2>
